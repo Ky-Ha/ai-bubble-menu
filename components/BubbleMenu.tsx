@@ -17,7 +17,6 @@ const GenerativeMenuSwitch = () => {
     const { from, to } = editor.state.selection
     const selectedText = editor.state.doc.textBetween(from, to, ' ')
 
-    editor.chain().focus().setTextSelection(editor.state.selection.from).run()
     console.log('Selected text:', selectedText)
   }, [editor])
 

@@ -1,4 +1,4 @@
-import AiEditor from '@/components/AiEditor'
+import AiEditor from '@/components/ai-editor'
 
 const paragraph = 
 `Cybersecurity threats are rising rapidly in both frequency and impact. 

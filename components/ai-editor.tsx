@@ -1,7 +1,7 @@
 'use client'
 
 import { EditorRoot, EditorContent, StarterKit } from 'novel'
-import BubbleMenu from './BubbleMenu'
+import BubbleMenu from './bubble-menu'
 
 export default function AiEditor({ content }: { content: any }) {
   const extensions = [StarterKit]

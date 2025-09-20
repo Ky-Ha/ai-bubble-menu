@@ -18,6 +18,7 @@ const GenerativeMenuSwitch = () => {
     const selectedText = editor.state.doc.textBetween(from, to, ' ')
 
     console.log('Selected text:', selectedText)
+    console.log('Paragraph:', editor.getText())
   }, [editor])
 
   return (
